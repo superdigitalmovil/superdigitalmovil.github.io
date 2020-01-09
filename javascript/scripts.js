@@ -423,7 +423,7 @@ head.ready(function() {
 		ie : {
 			css : function() {
 				if($.browser.msie && parseInt($.browser.version,10) < 9){
-					$('body').append('<p class="lt-ie9">You are using an outdated browser. Please <a target="_blank" href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>').css('padding-top','28px');
+					$('body').append('<p class="lt-ie9">You are using an outdated browser. Please <a target="_blank" href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>').css('padding-top','28px');
 					$('input[placeholder], textarea[placeholder]').placeholder();
 					$(':last-child').addClass('last-child');
 				}
