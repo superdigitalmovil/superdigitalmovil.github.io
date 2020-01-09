@@ -182,7 +182,7 @@ head.ready(function() {
 				$('#footer .date').text((new Date).getFullYear());
 			},
 			maps : function(){
-				$('#contact').append('<div class="map" id="mapa"></div>');
+				//$('#contact').append('<div class="map" id="mapa"></div>');
 				
 				if($('#mapa').size()){															
 					var mapa, styledMap, mapOptions, styles, markerOpts, infowindow;					
